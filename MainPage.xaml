@@ -24,51 +24,51 @@
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="1" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="2" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="3" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="4" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="5" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="6" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="7" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="8" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="9" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="10" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="11" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
                 <Label
                     Style="{StaticResource SubHeadline}"
                     Text="12" />
-                <Entry ReturnType="Next" />
+                <Entry ReturnType="Next" BackgroundColor="WhiteSmoke" />
             </VerticalStackLayout>
         </ScrollView>
     </Grid>
