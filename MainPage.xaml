@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ScrollViewKeyboardIssueIos.MainPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Shell.NavBarIsVisible="False">
+    <Grid RowDefinitions="Auto,*">
+        <VerticalStackLayout
+            Grid.Row="0"
+            BackgroundColor="DarkOrange">
+            <Label
+                Margin="30"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                SemanticProperties.HeadingLevel="Level1"
+                Style="{StaticResource Headline}"
+                Text="Sticky header panel"
+                VerticalOptions="Center" />
+        </VerticalStackLayout>
+        <ScrollView Grid.Row="1">
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25">
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="1" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="2" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="3" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="4" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="5" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="6" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="7" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="8" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="9" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="10" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="11" />
+                <Entry ReturnType="Next" />
+                <Label
+                    Style="{StaticResource SubHeadline}"
+                    Text="12" />
+                <Entry ReturnType="Next" />
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>
