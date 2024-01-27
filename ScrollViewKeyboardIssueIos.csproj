@@ -26,6 +26,12 @@
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.scrollviewkeyboardissueios</ApplicationId>
 
+		<!-- Uncomment to use MAUI nightlies https://github.com/dotnet/maui/wiki/Nightly-Builds -->
+		<RestoreAdditionalProjectSources>
+			https://pkgs.dev.azure.com/xamarin/public/_packaging/maui-nightly/nuget/v3/index.json
+		</RestoreAdditionalProjectSources>
+		<MauiVersion>8.0.6</MauiVersion>
+
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
 		<ApplicationVersion>1</ApplicationVersion>
